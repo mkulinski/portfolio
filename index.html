@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Michael Kulinski</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link rel="shortcut icon" type="image/x-icon"  href="images/mk-logo.jpg">
+		<link href="css/font-awesome.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link href='https://fonts.googleapis.com/css?family=Ubuntu:400,500,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/style.css">
+
+	</head>
+
+	<body>
+		<header class="masthead">
+			<div class="logo">
+				<a href="#home"><img src="images/mk-logo.jpg" alt="logo"></a>
+				<a href="#home"><span>Michael Kulinski</span></a>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="#work">Work</a></li>
+				    <li><a href="#aboutMe">About</a></li>
+				    <li><a href="/blog">Blog</a></li>
+				    <li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<a name="home"><section class="masthead-text"></a>
+			<div class="masthead-text-layer">
+				<h1 class="masthead-heading">My name is Michael Kulinski and I'm a <span class="text-color">Web Developer</span>.</h1>
+			</div>
+
+		</section>
+
+		<section class="work">
+			<div class="workLayer">
+				<a name="work"><h2>Recent Work</h2></a>
+
+				<div class="workImages">
+					<a href="https://ghost-mkulinski.herokuapp.com"><img src="images/ghost.jpg" alt="Ghost App"></a>
+					<a href="https://grammable-mkulinski.herokuapp.com"><img src="images/grammable.jpg" class="work-image-padding"  alt="grammable application"></a>
+					<a href="http://nomster1-mkulinski.heroku.com/"><img src="images/nomster.jpg" class="work-image-top" alt="nomster application"></a>
+				</div>
+				<div class="workImages">
+					<a href="https://flixter3-mkulinski.herokuapp.com/courses"><img src="images/flixter.jpg" alt="flixter application"></a>
+					<a href="https://splurty-mkulinski.herokuapp.com"><img src="images/splurty.jpg" class="work-image-padding"  alt="splurty application"></a>
+					<a href="/todolist/index.html"><img src="images/task.jpg" class="work-image-top" alt="To do List"></a>
+				</div>
+				<a name="aboutMe"></a>
+				<a href="https://github.com/mkulinski?tab=repositories"><button>View More</button></a>
+
+			</div>
+		</section>
+
+		<section class="about">
+			<div class="about-layer">
+				<h2>About Me</h2>
+
+				<p>Hello! My name is Michael Kulinski and I'm a Full Stack Developer. My goal is to build products and services that bring actual value to people, ones that solve a problem and make life a little bit easier.</p>
+
+				<p>If you'd like to discuss a project or job opportunity, please feel free to <a href="#contact">contact me</a>.</p>
+
+				<a href="MKulinski_Resume.pdf"><button>View My Resume</button></a>
+
+			</div>
+		</section>
+
+		<section class="contact">
+			<div class="contact-layer">
+				<a name="contact"><h2>Contact</h2></a>
+
+				<div id="form-main">
+				  <div id="form-div">
+				    <form class="form" id="form1" method="post" action="php/index.php">
+				      
+				      <p class="name">
+				        <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
+				      </p>
+				      
+				      <p class="email">
+				        <input name="email" type="email" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+				      </p>
+				      
+				      <p class="text">
+				        <textarea name="message" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Comment"></textarea>
+				      </p>
+				      
+				      
+				      <div class="submit">
+				        <input name="submit" type="submit" value="SEND" id="button-blue"/>
+				        <div class="ease"></div>
+				      </div>
+				    </form>
+				  </div>
+			</div>
+
+		</section>
+
+		<footer>
+			<div class="footer-layer">
+				<div class="social-media">
+					<ul>
+						<li><a href="https://twitter.com/MKulinski"><img class= "sm-icon tw" src="images/tw_icon.png"></a></li>
+					    <li><a href="https://instagram.com/mkulinski/"><img class= "sm-icon in" src="images/in_icon.png"></a></li>
+					    <li><a href="https://www.facebook.com/michael.kulinski.16"><img class= "sm-icon fb" src="images/fb_icon.png"></a></li>
+					</ul>
+				</div>
+
+				<div class="copywrite">
+					<p>Copyright © 2015 Michael Kulinski - All rights reserved!</p>
+				</div>
+
+			</div>
+
+		</footer>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="js/jquery.js"></script>
+		
+	</body>
+</html>
